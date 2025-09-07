@@ -1,12 +1,12 @@
 # TSforge
 
-By WitherOrNot & asdcorp
+By WitherOrNot & asdcorp, forked by itsSysTime and pre-compiled!
 
 ## About
 
 A collection of activation/evaluation extension methods for Windows Vista through 11.
 
-Note: We provide no support for direct use of this tool. The only supported implementation of the methods presented here is in [Microsoft Activation Scripts](https://massgrave.dev).
+Note: The original developers do not provide support for direct use of this tool. The only supported implementation of the methods presented here is in [Microsoft Activation Scripts](https://massgrave.dev).
 
 Included methods and tools:
 - ZeroCID - Permanent activation until reinstall/feature upgrade
@@ -128,6 +128,7 @@ Probably not. If they do, please tell us so we can laugh to ourselves like a bun
 3. Open command prompt in the directory where `TSforge.sln` can be found
 4. Run `C:\dotnet-sdk-9.0.200-win-x64\dotnet.exe build -c Release TSforge.sln`
 5. Built binaries can be found in `TSforgeCLI\bin\Release\net35`
+6. Although the repository is already pre-compiled, you can rebuild it in cases where you need to recover the original.
 
 ## Credits
 
@@ -152,3 +153,6 @@ Probably not. If they do, please tell us so we can laugh to ourselves like a bun
 ## License
 
 The project is licensed under the terms of the [GNU General Public License v3.0](LICENSE).
+
+> [!Important]
+> I have forked the TSforge repository with a pre-compiled version, you are welcome!
